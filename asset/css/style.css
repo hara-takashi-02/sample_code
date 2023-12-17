@@ -732,9 +732,6 @@ $mq-breakpoints: (
 .c-snsBtns .lineBtn a::before {
   background-color: #01B901;
 }
-.c-snsBtns .lineBtn a::after {
-  background: url(../images/ico_line.png) no-repeat top center/contain;
-}
 .c-snsBtns .mailBtn a {
   font-size: 1rem;
   background-color: #C9B97A;
@@ -747,9 +744,6 @@ $mq-breakpoints: (
 .c-snsBtns .mailBtn a::before {
   background-color: #C9B97A;
 }
-.c-snsBtns .mailBtn a::after {
-  background: url(../images/ico_mail.png) no-repeat top center/contain;
-}
 @media screen and (min-width: 768px) {
   .c-snsBtns .mailBtn a span:first-of-type {
     background-color: #C9B97A;
@@ -760,9 +754,6 @@ $mq-breakpoints: (
 }
 .c-snsBtns .telBtn a::before {
   background-color: #C9B97A;
-}
-.c-snsBtns .telBtn a::after {
-  background: url(../images/ico_tel.png) no-repeat top center/contain;
 }
 @media screen and (min-width: 768px) {
   .c-snsBtns .telBtn a span:first-of-type {
@@ -832,7 +823,7 @@ $mq-breakpoints: (
 }
 @media screen and (min-width: 768px) {
   .c-accordion__title::before,
-.c-accordion__title::after {
+  .c-accordion__title::after {
     width: 2.5rem;
     height: 0.2rem;
     right: 2rem;
